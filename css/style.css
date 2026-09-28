@@ -3,6 +3,10 @@
     src: url(/assets/fonts/Inter-VariableFont_opsz\,wght.ttf) format('truetype');
 }
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     background-color: #E1D4C9;
 }
@@ -20,9 +24,15 @@ button {
 }
 
 h1 {
-    font-size: 72px;
-    font-weight: 600;
-    line-height: 105%;
+    font: 600 72px/1.05 sans-serif;
+}
+
+h2 {
+    font: 600 60px/1.5 sans-serif;
+}
+
+h3 {
+    font: 600 24/1.25 sans-serif;
 }
 
 .accent {
@@ -92,3 +102,5 @@ h1 {
     opacity: 1;
     transform: translateX(-40px);
 }
+
+/* Слайдер */
